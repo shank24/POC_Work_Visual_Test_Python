@@ -1,5 +1,7 @@
 import PyPDF2
 
+#Extract Function
+
 def extract_information(pdf_path):
     with open(pdf_path, 'rb') as f:
         pdf = PyPDF2.PdfFileReader(f)
