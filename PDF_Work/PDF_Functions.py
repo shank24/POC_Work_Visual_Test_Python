@@ -1,10 +1,5 @@
 import PyPDF2
 
-#object = PyPDF2.PdfFileReader('C:\VS_Code_Python_POC\Visual_Test\PDF_Work\Azure.pdf')
-
-# print(object.documentInfo)
-# print(object.getNumPages())
-# print(object.getPage(1).extractText())
 
 
 def extract_information(pdf_path):

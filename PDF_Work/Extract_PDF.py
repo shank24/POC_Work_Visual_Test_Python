@@ -25,6 +25,3 @@ def extract_information(pdf_path):
 if __name__ == '__main__':
     path = 'C:\VS_Code_Python_POC\Visual_Test\PDF_Work\Azure.pdf'
     extract_information(path)
-
-
-#PyPDF2.PdfFileReader('Azure.pdf')

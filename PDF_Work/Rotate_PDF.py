@@ -1,5 +1,7 @@
 import PyPDF2
 
+#Rotate Function
+
 def rotate_pages(pdf_path):
     pdf_writer = PyPDF2.PdfFileWriter()
     pdf_reader = PyPDF2.PdfFileReader(pdf_path)
